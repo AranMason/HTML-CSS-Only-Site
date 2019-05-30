@@ -5,6 +5,8 @@
 	#FDFFFC
 */
 
+
+
 html {
 	scroll-behavior: smooth;
 }
@@ -239,7 +241,7 @@ a {
 
 #highlights-hero-container {
 	background-color: hsla(214, 42%, 26%, 0.5);
-	padding:8px;
+	padding: 8px 16px;
 	border-radius: 8px;
 }
 
@@ -314,12 +316,19 @@ a {
 .project-card-image {
 	width: 100%;
 	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	background-position: center;
+	height: 400px;
+	background-size: cover;
 }
 
 .project-card-image>img {
 	width: auto;
 	height: auto;
 	max-width: 100%;
+	max-height: 400px;
+	color: black;
 }
 
 .project-card-description {
@@ -335,7 +344,6 @@ a {
 	display: none;
 }
 
-
 /**
 	Footer
 */
@@ -344,4 +352,23 @@ a {
 	color: #FDFFFC;
 	margin-top: 64px;
 	padding: 24px 24px 24px 32px;
+}
+
+
+
+
+@media screen and (max-width: 1500px){
+	.project-container {
+		flex: 1 0 45%
+	}
+}
+
+@media screen and (max-width: 992px){
+	.project-container {
+		flex: 1 0 90%
+	}
+
+	body {
+		font-size: 24px;
+	}
 }
