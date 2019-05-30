@@ -2,4 +2,3 @@ The goal of this project is to create a responsive single page website that only
 
 ## External Libraries and Tools:
 - Google Fonts
-- Font Awesome
