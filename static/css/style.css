@@ -41,7 +41,7 @@ a {
 }
 
 .button {
-	background-color: #38AECC;
+	background-color: #5CC8FF;
 	border-radius: 3px;
 	padding: 6px;
 	cursor: pointer;
@@ -106,7 +106,7 @@ a {
 }
 
 .navigation-social-icon:hover {
-	color: #274060
+	color: #FDFFFC
 }
 
 .navigation-item {
@@ -137,7 +137,7 @@ a {
 }
 
 .navigation-item:hover {
-	border-color: #274060;
+	border-color: #FDFFFC;
 	cursor: pointer;
 }
 
@@ -238,7 +238,7 @@ a {
 }
 
 #highlights-hero-container {
-	background-color: rgba(253, 255, 252, 0.5);
+	background-color: hsla(214, 42%, 26%, 0.5);
 	padding:8px;
 	border-radius: 8px;
 }
@@ -251,9 +251,9 @@ a {
 	background-position: center;
 	background-size: cover;
 
-	border-style: solid;
+	/* border-style: solid;
 	border-width: 3px;
-	border-color: #5CC8FF;
+	border-color: #5CC8FF; */
 
 	height: 200px;
 
