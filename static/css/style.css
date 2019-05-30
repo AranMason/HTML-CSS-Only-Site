@@ -291,7 +291,6 @@ a {
 	flex: 1 0 30%;
 	margin: 12px;
 	padding: 6px;
-	height: 600px;
 	box-shadow: 3px 3px 8px #274060;
 	transition: box-shadow 0.5s;
 	display: flex;
@@ -370,5 +369,9 @@ a {
 
 	body {
 		font-size: 24px;
+	}
+
+	#highlights {
+		flex-direction: column;
 	}
 }
