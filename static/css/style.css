@@ -154,17 +154,24 @@ a {
 */
 
 #site-content-container {
+	padding: 64px;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	background-color: #FDFFFC;
-	margin: 0px 64px;
 }
 
 .site-content {
 	display: flex;
 	flex-direction: column;
 	animation: fadein 2s;
+	margin: 0px 64px;
+	padding: 32px;
+}
+
+.pop-out {
+	box-shadow: 3px 3px 8px #274060;
+	border-radius: 5px;
 }
 
 @keyframes fadein {
@@ -233,16 +240,31 @@ a {
 	display: flex;
 	flex-direction: row;
 	padding: 64px 20% 64px 10%;
+}
+
+.highlight-background {
 	background-image: url("/static/image/download.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
+.full-page {
+	height: 100vh;
+	flex:1;
+}
+
+#site-header.full-page {
+	padding-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
 #highlights-hero-container {
 	background-color: hsla(214, 42%, 26%, 0.5);
 	padding: 8px 16px;
 	border-radius: 8px;
+	display: inline-table;
 }
 
 #highlights-hero-img {
@@ -262,7 +284,8 @@ a {
 }
 
 #highlights-content {
-	padding: 32px 64px 0px 0px;	flex: 1;
+	padding: 32px 64px 0px 0px;
+	flex: 1;
 }
 
 #highlights-content > p {
@@ -284,21 +307,21 @@ a {
 #projects {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between
+	justify-content: space-between;
+	flex: 1;
 }
 
 .project-container {
-	flex: 1 0 30%;
-	margin: 12px;
-	padding: 6px;
-	box-shadow: 3px 3px 8px #274060;
+	flex: 1;
+	flex-basis: 20p;
+	margin: 1rem;
 	transition: box-shadow 0.5s;
-	display: flex;
-	flex-direction: column;
-	text-overflow: ellipsis;
-	order: 1;
-
+	flex-direction: row;
 	animation: fadein 2s;
+	background-color: #FDFFFC;
+	height:  100%;
+	border-radius: 5px;
+	padding: 1rem;
 }
 
 .project-container:hover {
@@ -313,13 +336,11 @@ a {
 }
 
 .project-card-image {
-	width: 100%;
-	display: flex;
 	justify-content: center;
-	overflow: hidden;
 	background-position: center;
-	height: 400px;
 	background-size: cover;
+	height: 50%;
+	padding: -1rem;
 }
 
 .project-card-image>img {
@@ -333,7 +354,6 @@ a {
 .project-card-description {
 	text-overflow: ellipsis;
 	overflow: hidden;
-	margin: 12px;
 }
 
 .project-card-footer {
