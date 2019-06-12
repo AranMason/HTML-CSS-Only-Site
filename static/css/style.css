@@ -154,7 +154,7 @@ a {
 */
 
 #site-content-container {
-	padding: 4rem;
+	/* padding: 4rem; */
 	flex: 1;
 	display: flex;
 	flex-direction: column;
@@ -240,7 +240,7 @@ a {
 #highlights {
 	display: flex;
 	flex-direction: row;
-	padding: 0px 20% 32px 10%;
+	/* padding: 3rem 20% 3rem 10%; */
 	/* background-color: white; */
 	/* align-content: center; */
 	/* justify-content: center; */
@@ -393,6 +393,7 @@ section#highlights {}
 	.project-container {
 		flex: 1 0 90%;
 		max-width: 90%;
+		margin: auto;
 	}
 
 	body {
@@ -406,7 +407,7 @@ section#highlights {}
 	}
 
 	#highlights.site-content {
-		padding: 0px;
+		padding: 2rem;
 	}
 
 	.project-card-image {
