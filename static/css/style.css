@@ -318,7 +318,7 @@ a {
 	transition: box-shadow 0.5s;
 	flex-direction: row;
 	animation: fadein 2s;
-	background-color: #FDFFFC;
+	background-color: rgba(253, 255, 252, 0.8);
 	height:  100%;
 	border-radius: 5px;
 	padding: 1rem;
@@ -326,6 +326,7 @@ a {
 
 .project-container:hover {
 	box-shadow: 5px 5px 16px #274060;
+	background-color: #FDFFFC;
 }
 
 .project-card-header {
