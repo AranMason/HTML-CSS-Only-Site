@@ -159,6 +159,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	background-color: #FDFFFC;
+	/* align-content: center; */
 }
 
 .site-content {
@@ -240,7 +241,12 @@ a {
 	display: flex;
 	flex-direction: row;
 	padding: 0px 20% 32px 10%;
+	/* background-color: white; */
+	/* align-content: center; */
+	/* justify-content: center; */
 }
+
+section#highlights {}
 
 .highlight-background {
 	background-image: url("/static/image/download.jpg");
@@ -269,23 +275,22 @@ a {
 
 #highlights-hero-img {
 	border-radius: 100%;
-	width: 200px;
+	width: 17rem;
 	background-image: url("/static/image/profile.png");
 	background-position: center;
 	background-position: center;
 	background-size: cover;
-
 	/* border-style: solid;
 	border-width: 3px;
 	border-color: #5CC8FF; */
-
-	height: 200px;
-
+	height: 17rem;
 }
 
 #highlights-content {
 	padding: 32px 64px 0px 0px;
 	flex: 1;
+	display: flex;
+	margin: auto;
 }
 
 #highlights-content > p {
@@ -378,14 +383,20 @@ a {
 
 
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1500px){
+	.project-container {
+		/* flex: 1 0 45% */
+	}
+}
+
+@media screen and (max-width: 992px){
 	.project-container {
 		flex: 1 0 90%;
-		max-width: 80%;
+		max-width: 90%;
 	}
 
-	#projects {
-		justify-content:center;
+	body {
+		font-size: 24px;
 	}
 
 	#highlights {
@@ -411,19 +422,4 @@ a {
 	#highlights-content {
 		padding: 0px;
 	}
-}
-
-@media screen and (max-width: 992px){
-	.project-container {
-		flex: 1 0 90%;
-		max-width: 90%;
-	}
-
-	body {
-		font-size: 24px;
-	}
-
-
-
-
 }
