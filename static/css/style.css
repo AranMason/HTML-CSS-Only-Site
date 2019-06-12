@@ -228,6 +228,8 @@ a {
 #highlights {
 	display: flex;
 	flex-direction: row;
+	padding-left: 10rem;
+	padding-right: 15rem;
 }
 
 .highlight-background {
@@ -291,6 +293,8 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-left: 5rem;
+	margin-right: 5rem;
 }
 
 .project-container {
@@ -357,18 +361,19 @@ a {
 	padding: 24px 24px 24px 32px;
 }
 
-
-
-
 @media screen and (max-width: 1500px){
-
+	#projects {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
 }
 
 @media screen and (max-width: 992px){
 	.project-container {
 		flex: 1 0 90%;
-		max-width: 90%;
+		max-width: 85%;
 		margin: auto;
+		margin-bottom: 2rem;
 	}
 
 	body {
@@ -377,10 +382,8 @@ a {
 
 	#highlights {
 		flex-direction: column-reverse;
-	}
-
-	#highlights.site-content {
-		padding: 2rem;
+		padding-left: 5rem;
+		padding-right: 5rem;
 	}
 
 	.project-card-image {
