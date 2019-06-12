@@ -322,6 +322,7 @@ a {
 	height:  100%;
 	border-radius: 5px;
 	padding: 1rem;
+	max-width: 35%;
 }
 
 .project-container:hover {
@@ -377,19 +378,14 @@ a {
 
 
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1300px){
 	.project-container {
-		flex: 1 0 45%
-	}
-}
-
-@media screen and (max-width: 992px){
-	.project-container {
-		flex: 1 0 90%
+		flex: 1 0 90%;
+		max-width: 80%;
 	}
 
-	body {
-		font-size: 24px;
+	#projects {
+		justify-content:center;
 	}
 
 	#highlights {
@@ -415,4 +411,19 @@ a {
 	#highlights-content {
 		padding: 0px;
 	}
+}
+
+@media screen and (max-width: 992px){
+	.project-container {
+		flex: 1 0 90%;
+		max-width: 90%;
+	}
+
+	body {
+		font-size: 24px;
+	}
+
+
+
+
 }
