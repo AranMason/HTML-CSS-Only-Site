@@ -5,8 +5,6 @@
 	#FDFFFC
 */
 
-
-
 html {
 	scroll-behavior: smooth;
 }
@@ -47,8 +45,8 @@ a {
 	border-radius: 3px;
 	padding: 6px;
 	cursor: pointer;
-	/* display: flex; */
 }
+
 /**
 	Header
 */
@@ -69,7 +67,6 @@ a {
 	flex: 2;
 	vertical-align: bottom;
 	padding-left: 64px;
-	/* height: 100%; */
 	padding: 12px 0px 12px 64px
 }
 
@@ -84,19 +81,15 @@ a {
 }
 
 #site-navigation {
-	/* flex: 2; */
-	/* width: 30%; */
 	display: flex;
 	justify-content: flex-end;
 	align-content: center;
 	margin-right: 32px;
-	/* padding-bottom: 12px; */
 }
 
 #site-navigation-social {
 	justify-content: space-evenly;
 	display: flex;
-	/* padding-right: 24px; */
 }
 
 .navigation-social-icon {
@@ -144,9 +137,7 @@ a {
 }
 
 .navigation-item:hover>.navigation-button {
-
 	font-size: 1.1em;
-
 }
 
 /**
@@ -154,19 +145,16 @@ a {
 */
 
 #site-content-container {
-	/* padding: 4rem; */
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	background-color: #FDFFFC;
-	/* align-content: center; */
 }
 
 .site-content {
 	display: flex;
 	flex-direction: column;
 	animation: fadein 2s;
-	/* margin: 0px 64px; */
 	padding: 32px;
 }
 
@@ -240,13 +228,7 @@ a {
 #highlights {
 	display: flex;
 	flex-direction: row;
-	/* padding: 3rem 20% 3rem 10%; */
-	/* background-color: white; */
-	/* align-content: center; */
-	/* justify-content: center; */
 }
-
-section#highlights {}
 
 .highlight-background {
 	background-image: url("/static/image/download.jpg");
@@ -256,7 +238,6 @@ section#highlights {}
 }
 
 .full-page {
-	/* min-height: 100vh; */
 	flex:1;
 }
 
@@ -280,9 +261,6 @@ section#highlights {}
 	background-position: center;
 	background-position: center;
 	background-size: cover;
-	/* border-style: solid;
-	border-width: 3px;
-	border-color: #5CC8FF; */
 	height: 17rem;
 }
 
@@ -313,7 +291,6 @@ section#highlights {}
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/* flex: 1; */
 }
 
 .project-container {
@@ -384,9 +361,7 @@ section#highlights {}
 
 
 @media screen and (max-width: 1500px){
-	.project-container {
-		/* flex: 1 0 45% */
-	}
+
 }
 
 @media screen and (max-width: 992px){
@@ -402,8 +377,6 @@ section#highlights {}
 
 	#highlights {
 		flex-direction: column-reverse;
-		/* align-content: center; */
-		/* justify-content: center; */
 	}
 
 	#highlights.site-content {
