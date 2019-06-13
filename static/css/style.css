@@ -28,7 +28,7 @@ h1 {
 	width: 50%;
 }
 
-h1>span {
+span.emphasis {
 	color: #5CC8FF;
 }
 
@@ -73,11 +73,6 @@ a {
 #site-title {
 	height: 100%;
 	font-size: 2em;
-}
-
-#site-title>span {
-	color: #5CC8FF;
-	font-weight: bold;
 }
 
 #site-navigation {
@@ -280,11 +275,6 @@ a {
 	border-radius: 5px;
 }
 
-#highlights-content > p > span {
-	color: #5CC8FF;
-	font-weight: bold;
-}
-
 /**
 	Projects
 */
@@ -378,12 +368,23 @@ a {
 }
 
 @media screen and (max-width: 992px){
+
+	#site-title>span.emphasis {
+		color: #FDFFFC;
+	}
+
+	#site-title>span.header-subtitle {
+		display: none;
+	}
+
 	.project-container {
 		flex: 1 0 90%;
 		max-width: 85%;
 		margin: auto;
 		margin-bottom: 2rem;
 	}
+
+
 
 	.project-container:hover {
 		transform: none;
