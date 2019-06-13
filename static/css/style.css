@@ -315,14 +315,21 @@ a {
 .project-container:hover {
 	box-shadow: 5px 5px 16px #274060;
 	background-color: #FDFFFC;
-	transform: scale(1.03);
+	transform: scale(1.1);
 }
 
 .project-card-header {
 	font-size: 2em;
 	padding: 6px;
 	margin-left: 12px;
-	height: 60px;
+	/* height: 60px; */
+}
+
+.subtitle {
+	font-size: 1.5rem;
+	color: #274060;
+	font-style: italic;
+	margin-top: -20px;
 }
 
 .project-card-image {
