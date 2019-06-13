@@ -315,7 +315,7 @@ a {
 .project-container:hover {
 	box-shadow: 5px 5px 16px #274060;
 	background-color: #FDFFFC;
-	transform: scale(1.1);
+	transform: scale(1.03);
 }
 
 .project-card-header {
