@@ -144,6 +144,10 @@ a {
 	display: flex;
 	flex-direction: column;
 	background-color: #FDFFFC;
+	background-image: url("/static/image/background_2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .site-content {
@@ -224,11 +228,6 @@ a {
 	display: flex;
 	flex-direction: row;
 	padding: 64px 20% 64px 10%;
-	background-image: url("/static/image/background_2.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-position-y: -300px;
 }
 
 .full-page {
@@ -250,7 +249,7 @@ a {
 
 #highlights-hero-img {
 	border-radius: 100%;
-	width: 200px;
+	width: 17rem;
 	background-image: url("/static/image/profile.jpg");
 	background-position: center;
 	background-position: center;
