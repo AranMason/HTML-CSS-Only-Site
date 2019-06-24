@@ -387,10 +387,32 @@ a {
 	}
 
 	body {
-		font-size: 24px;
+		font-size: 2rem;
+		/* margin: auto; */
+		/* margin: auto; */
 	}
+
+div#highlights-hero-img {
+    width: 25rem;
+    height: 25rem;
+}
+
+section#highlights {
+    padding: 4rem;
+}
+
+#highlights-content {
+    margin: auto;
+    padding: 0px 0px;
+}
+
+div#highlights-hero-img {
+    margin: auto;
+}
 
 	#highlights {
 		flex-direction: column-reverse;
+		/* align-content: center; */
+		margin: auto;
 	}
 }
