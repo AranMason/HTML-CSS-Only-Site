@@ -223,15 +223,12 @@ a {
 #highlights {
 	display: flex;
 	flex-direction: row;
-	padding-left: 10rem;
-	padding-right: 15rem;
-}
-
-.highlight-background {
-	background-image: url("/static/image/download.jpg");
+	padding: 64px 20% 64px 10%;
+	background-image: url("/static/image/background_2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-position-y: -300px;
 }
 
 .full-page {
@@ -253,8 +250,8 @@ a {
 
 #highlights-hero-img {
 	border-radius: 100%;
-	width: 17rem;
-	background-image: url("/static/image/profile.png");
+	width: 200px;
+	background-image: url("/static/image/profile.jpg");
 	background-position: center;
 	background-position: center;
 	background-size: cover;
@@ -396,21 +393,5 @@ a {
 
 	#highlights {
 		flex-direction: column-reverse;
-		padding-left: 5rem;
-		padding-right: 5rem;
-	}
-
-	.project-card-image {
-		height: 20rem;
-	}
-
-	#highlights-hero-img {
-		margin:auto;
-		width: 250px;
-		height: 250px;
-	}
-
-	#highlights-content {
-		padding: 0px;
 	}
 }
